@@ -1,0 +1,17 @@
+.card-swapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.card-swapper > * {
+  flex-shrink: 0;
+}
+
+.card-swapper + * {
+  margin-top: 30px;
+}
